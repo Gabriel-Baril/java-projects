@@ -1,0 +1,118 @@
+### Log 2018-05-08
+> Created the main folder "__Game__" to list all the file and folder of the game.
+> Created the file "Game_Description" to list the description of the game.
+> Created the file "Game_Log" to list all the change in the game and in the folder "__Game__".
+
+### Log 2018-05-09
+## Code
+> Created the package [main] that contain the basics classes of the game.
+> Created the class [Const] that contain all the constant and ArrayList in the game.
+> Created the class [Main] that start the game window.
+> Created the class [Fenetre] that contain the main structure of the game. (singleton)
+> Created the class [Panneau] that render all the graphics in the game. (singleton)
+> Created the class [Seed] that contain the seed generator algorithm.
+> Created the package [math] that contain all math classes.
+> Created the class [Vector2] that contain all the utile of 2D vectors.
+> Created the package [platform] that contain all platform objects.
+> Created the abstract class [AbstractPlatform] which is the generic class of all platform objects.
+> Created the package [input] that contain all the user input classes.
+> Created the class [Clavier] that check the keyboard input. (singleton)
+> Created the class [Souris] that check the mouse input. (singleton)
+> Created the class [Molette] that check the mouse wheel input. (singleton)
+## Content
+> Created the algorithm that generate a random seed (of n length composed of (A-Z)(0-9)).
+
+### Log 2018-05-10
+## Code
+> Changed the name of class [AbstractPlatform] to [RectPlatform].
+> Created the package [consummable] that contain all the consummable.
+> Created the class [Chest].
+> Created the class [Polygon] that contain all the utile of Polygon shape(collision/transformation...).
+> Created the class [Rectangle] which is a simpler class than Polygon.
+> Created the package [player] that contain all the class related to the in-game player.
+> Created the class [Player] that manage the player entity.
+> Created the class [ComplexPlatform] that manage the entity ComplexPlatform.
+> Created the class [FenetreListener] that check the window input.
+## Content
+> Added the player entity in the game.
+> The player can now be render|update.
+> The player can now move|jump.
+
+### Log 2018-05-11
+## Code
+>
+## Content
+> The player is now stopped when he collide the border of the window.
+> Added the basic platform entity in the game.
+> basic platforms can now be render|update.
+> The player can now collide with the up side of a basic platform.
+> The player can now collide with the bottom side of a basic platform.
+> The player can now collide with the left side of a basic platform.
+> The player can now collide with the right side of a basic platform.
+> Fixed the bug that when the player collide too fast the left|right side of a basic platform the player is teleport on the up|down side of this platform.
+
+
+### Log 2018-05-12
+## Code
+> Created the class [Coin] that manage the coin entity.
+> Upgraded the singleton pattern on related classes.
+## Content
+> Fixed the bug that when the player is on a platform|border sometime he doesn't jump.
+> Fixed the bug that when the player is falling and move sometime, ghost blocks appear below him.
+> Added the coin entity in the game.
+> Coins can now be rendered|updated.
+> Now we can detect when a coin is colliding with the player|platform.
+
+### Log 2018-05-13
+## Code
+> Upgraded
+> Optimized some classes like [Player]|[RectPlatform]|[Coin] by creating related abstract classes.
+> Created the class [RectStaticEnemy] that manage the static rectangle enemy.
+> Created the class [Projectile] that manage all the projectile entity.
+## Content
+> The player can now be changed of color.
+> Platforms can now be changed of color.
+> Coins can now be changed of color.
+> The player can now die.
+> Added the RectStaticEnemy in the game.
+> The RectStaticEnemy can now be rendered|updated.
+> RectStaticEnemies can now be changed of color.
+> Now when the player collide a RectStaticEnemy he die.
+> Added the projectile entity in the game.
+> Projectiles can now be rendered|updated.
+> Now the player can shoot.
+> Now we can know if the player go to the right|left or if is jumping.
+
+### Log 2018-05-14
+## Code
+> Created the class [Turret] that manage the turret entity.
+## Content
+> Added the turret entity in the game
+> Turrets can now be rendered|updated.
+> Turrets can now target the player.
+
+### log 2018-05-15
+## Code
+## Content
+> Fixed the bug that when the player is close of the height of a turret, this turret shoot at the wrong place.
+> Now when a projectile is out of the window he's deleted.
+> Now when a projectile collide a platform he's is deleted.
+> Now when a unfriendly projectile collide the player he die and the projectile is deleted.
+
+### Log 2018-05-16
+## Code
+> Created the class [ParticleSystem] that manage the particle system entity.
+## Content
+> Now when the player die, a blood particle system explosion happen.
+
+
+### Log 2018-05-17
+## Code
+> Created the class [Bouton] that manage the bouton entity.
+> Created the package [menu] that contain all the classes related with the menu.
+## Content
+
+
+
+
+

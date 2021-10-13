@@ -1,0 +1,17 @@
+### Game description
+> Gender : A rogue-lite like The binding of Isaac : Afterbirth
+> Language : Coded in C++/SFML
+>
+
+### Game Algorithm
+> That start a game
+> That generate a seed
+> That generate a floor
+> That 
+
+
+### Game mechanics
+
+### Game Idea
+
+### Other 
